@@ -1,0 +1,8 @@
+Generated with this guide: https://bbs.nextthing.co/t/guide-to-writing-new-sdl2-controller-mappings-for-your-input-devices-for-use-with-pico-8-from-your-pocketchip/8757
+
+# Custom, for Chip PC bundle gamepad
+030000001008000001e5000010010000,usb gamepad           ,platform:Linux,x:b3,a:b2,b:b1,y:b0,back:b8,start:b9,leftshoulder:b4,rightshoulder:b6,leftx:a0,lefty:a1,
+
+Add to the end of ~/.lexaloffle/sdl_controllers.txt.
+
+But even though pico8's log shows the controller is recognized and mapped to player 0, it doesn't do anything when I press buttons.
